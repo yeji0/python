@@ -38,15 +38,19 @@ print(ord('a')) # 97 문자'a'의 아스키코드 값
 def in_both(word1, word2):
     for letter in word1:
         if letter in word2:
-            print(letter)
-            
+            print(letter)                       
 in_both('apples', 'oranges') 
 # a
 # e
 # s
+# 변수1 = ["진연", "범수", "민수"]
+# for 변수2 in 변수1
+#     실행명령문
+# #변수1의 값 하나씩 변수2에 넣으면서 실행
 
 # ==== 논리 연산자(and, or, not) ====
-print(not True and False or not False) # True / 논리 연산자가 식 하나에 들어 있으면 not -> and -> or 순으로 판단
+print(not True and False or not False) # True 
+# 논리 연산자가 식 하나에 들어 있으면 not -> and -> or 순으로 판단
 
 # ==== 비트 연산자(&, |, ^, ~) ====
 # &(and), |(or, shift backslash), ^(XOR: 같으면 false, 다르면 true), ~(not)

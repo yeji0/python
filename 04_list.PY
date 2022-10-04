@@ -6,6 +6,15 @@ print(family) # ['아빠', '엄마', '큰아들', '작은아들']
 family.append("딸?") #append는 맨 뒤에 자료를 넣음
 print(family) # ['아빠', '엄마', '큰아들', '작은아들', '딸?']
 
+print("나누기 전용 계산기입니다.")
+nums = []
+nums.append(int(input("첫번째 숫자를 입력하세요: ")))
+nums.append(int(input("두번째 숫자를 입력하세요: ")))
+nums.append(int(nums[0] / nums[1]))
+print("{0} / {1} = {2}".format(nums[0], nums[1], nums[2]))
+# 나누기 전용 계산기입니다.
+# 6 / 3 = 2
+
 family.insert(4, "조카") #insert(위치, 데이터)
 print(family) # ['아빠', '엄마', '큰아들', '작은아들', '조카', '딸?']
 
